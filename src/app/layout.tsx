@@ -13,11 +13,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex flex-row justify-content-between bg-layout-bg bg-cover bg-center h-screen"
+        <div className="flex flex-row justify-content-between bg-layout-bg bg-cover bg-center h-screen w-screen"
         style={{backgroundImage: "url('/images/4d91829c061855aa7f9f4a23f1821fbd.jpeg')"}}
         >
           <SideBar/>
-          <main>{children}</main>
+          <main className='w-full'>{children}</main>
         </div>
       </body>
     </html>

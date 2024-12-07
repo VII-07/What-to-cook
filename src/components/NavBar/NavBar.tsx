@@ -5,7 +5,7 @@ import { AccountCircle, AddBox, Favorite, Search } from "@mui/icons-material";
 
 const NavBar = () => {
     return ( 
-        <nav>
+        <nav className="flex flex-lg-grow-[0.4]">
             <ul className={styled.nav__bar}>
                 <Link href={'#'} className={styled.nav__bar__link}>
                     <li><SmartToyIcon/></li>
